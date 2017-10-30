@@ -1,0 +1,207 @@
+{
+  "id": 6,
+  "version": 0,
+  "title": "Add a file",
+  "description": "This is a simple pull request to add a new file",
+  "state": "OPEN",
+  "open": true,
+  "closed": false,
+  "createdDate": 1494867470989,
+  "updatedDate": 1494867470989,
+  "fromRef": {
+    "id": "refs/heads/develop",
+    "displayId": "develop",
+    "latestCommit": "a0d9698482c8ba7b12f4474230503537a2872ee0",
+    "repository": {
+      "slug": "test-repo",
+      "id": 2570,
+      "name": "test-repo",
+      "scmId": "git",
+      "state": "AVAILABLE",
+      "statusMessage": "Available",
+      "forkable": true,
+      "project": {
+        "key": "SYMP",
+        "id": 2524,
+        "name": "SYMP",
+        "description": "SYMPHONY",
+        "public": false,
+        "type": "NORMAL",
+        "links": {
+          "self": [
+            {
+              "href": "https://bitbucket.example.com/projects/SYMP"
+            }
+          ]
+        }
+      },
+      "public": false,
+      "links": {
+        "clone": [
+          {
+            "href": "https://git@bitbucket.example.com:9999/symp/test-repo.git",
+            "name": "http"
+          },
+          {
+            "href": "ssh://git@bitbucket.example.com:9999/symp/test-repo.git",
+            "name": "ssh"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://bitbucket.example.com/projects/SYMP/repos/test-repo/browse"
+          }
+        ]
+      }
+    }
+  },
+  "toRef": {
+    "id": "refs/heads/master",
+    "displayId": "master",
+    "latestCommit": "bf6036f939f8a3f8b7fcce5c213dd5ee58642df4",
+    "repository": {
+      "slug": "test-repo",
+      "id": 2570,
+      "name": "test-repo",
+      "scmId": "git",
+      "state": "AVAILABLE",
+      "statusMessage": "Available",
+      "forkable": true,
+      "project": {
+        "key": "SYMP",
+        "id": 2524,
+        "name": "SYMP",
+        "description": "APP ID:123-XYZ",
+        "public": false,
+        "type": "NORMAL",
+        "links": {
+          "self": [
+            {
+              "href": "https://bitbucket.example.com/projects/SYMP"
+            }
+          ]
+        }
+      },
+      "public": false,
+      "links": {
+        "clone": [
+          {
+            "href": "https://git@bitbucket.example.com:9999/symp/test-repo.git",
+            "name": "http"
+          },
+          {
+            "href": "ssh://git@bitbucket.example.com:9999/symp/test-repo.git",
+            "name": "ssh"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://bitbucket.example.com/projects/SYMP/repos/test-repo/browse"
+          }
+        ]
+      }
+    }
+  },
+  "locked": false,
+  "author": {
+    "user": {
+      "name": "Fred",
+      "emailAddress": "fred.smith@example.com",
+      "id": 9876,
+      "displayName": "FRED SMITH",
+      "active": true,
+      "slug": "X9876",
+      "type": "NORMAL",
+      "links": {
+        "self": [
+          {
+            "href": "https://bitbucket.example.com/users/fredsmith"
+          }
+        ]
+      }
+    },
+    "role": "AUTHOR",
+    "approved": false,
+    "status": "UNAPPROVED"
+  },
+  "reviewers": [
+    {
+      "user": {
+        "name": "Robert",
+        "emailAddress": "robert.johnson@example.com",
+        "id": 1803,
+        "displayName": "ROBERT JOHNSON",
+        "active": true,
+        "slug": "X1234",
+        "type": "NORMAL",
+        "links": {
+          "self": [
+            {
+              "href": "https://bitbucket.example.com/users/robertjohnson"
+            }
+          ]
+        }
+      },
+      "lastReviewedCommit": "a0d9698482c8ba7b12f4474230503537a2872ee0",
+      "role": "REVIEWER",
+      "approved": false,
+      "status": "UNAPPROVED"
+    },
+    {
+      "user": {
+        "name": "Sophie",
+        "emailAddress": "sophie.muller@example.com",
+        "id": 1804,
+        "displayName": "SOPHIE MULLER",
+        "active": true,
+        "slug": "X4567",
+        "type": "NORMAL",
+        "links": {
+          "self": [
+            {
+              "href": "https://bitbucket.example.com/users/sophiemuller"
+            }
+          ]
+        }
+      },
+      "lastReviewedCommit": "a0d9698482c8ba7b12f4474230503537a2872ee0",
+      "role": "REVIEWER",
+      "approved": true,
+      "status": "UNAPPROVED"
+    }
+  ],
+  "participants": [],
+  "links": {
+    "self": [
+      {
+        "href": "https://bitbucket.example.com/projects/SYMP/repos/test-repo/pull-requests/6"
+      }
+    ]
+  },
+  "activity": {
+    "id": 456,
+    "createdDate": 1496227863808,
+    "user": {
+      "name": "Sophie",
+      "emailAddress": "sophie.muller@example.com",
+      "id": 1804,
+      "displayName": "SOPHIE MULLER",
+      "active": true,
+      "slug": "X4567",
+      "type": "NORMAL"
+    },
+    "action": "UPDATED",
+    "addedReviewers": [
+      {
+        "name": "Sophie",
+        "emailAddress": "sophie.muller@example.com",
+        "id": 1804,
+        "displayName": "SOPHIE MULLER",
+        "active": true,
+        "slug": "X4567",
+        "type": "NORMAL"
+      }
+    ],
+    "removedReviewers": []
+  }
+}

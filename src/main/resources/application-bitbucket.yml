@@ -1,0 +1,9 @@
+applications:
+  bitbucket:
+    component: bitBucketWebHookIntegration
+    name: BitBucket
+    description: "BitBucket integration"
+    publisher: Symphony
+    context: bitbucket
+    enabled: true
+    visible: true

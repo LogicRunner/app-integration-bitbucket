@@ -1,0 +1,37 @@
+<messageML>
+    <entity type="com.symphony.integration.bitbucket.event.pull_request" version="1.0">
+        <presentationML>Pull request COMMENTED commented for <mention email="fred.smith@example.com"/>
+            <br/>[Add a file]<br/>Comment on PR 6 into "test-repo:refs/heads/master" from "test-repo:refs/heads/test"
+            <br/>Outstanding approvers are <mention email="robert.johnson@example.com"/>,
+            <br/>You can check this pull request at:
+            <a href="https://bitbucket.example.com/projects/SYMP/repos/test-repo/pull-requests/6"/>
+            <br/>Description:<br/>This is a simple pull request to add a new file
+        </presentationML>
+        <attribute name="action" type="org.symphonyoss.string" value="COMMENTED"/>
+        <attribute name="merged" type="org.symphonyoss.string" value=""/>
+        <attribute name="number" type="org.symphony.oss.number.int" value="0"/>
+        <attribute name="commits" type="org.symphony.oss.number.int" value="0"/>
+        <attribute name="repo_branch_head" type="org.symphonyoss.string" value="test-repo:refs/heads/test"/>
+        <attribute name="repo_branch_base" type="org.symphonyoss.string" value="test-repo:refs/heads/master"/>
+        <attribute name="id" type="org.symphony.oss.number.int" value="6"/>
+        <attribute name="state" type="org.symphonyoss.string" value=""/>
+        <attribute name="title" type="org.symphonyoss.string" value="Add a file"/>
+        <attribute name="body" type="org.symphonyoss.string" value=""/>
+        <attribute name="html_url" type="com.symphony.uri" value
+                ="https://bitbucket.example.com/projects/SYMP/repos/test-repo/pull-requests/6"/>
+        <attribute name="created_at" type="org.symphonyoss.time.rfc3339" value="2017-05-15T17:57:50+01:00"/>
+        <attribute name="updated_at" type="org.symphonyoss.time.rfc3339" value="2017-05-18T09:15:43+01:00"/>
+        <entity type="com.symphony.integration.bitbucket.approvers" version="1.0">
+            <entity type="com.symphony.integration.bitbucket.approver" version="1.0">
+                <attribute name="full_name" type="org.symphonyoss.string" value="ROBERT JOHNSON"/>
+                <attribute name="email" type="org.symphonyoss.string" value="robert.johnson@example.com"/>
+                <attribute name="status" type="org.symphonyoss.string" value="NEEDS_WORK"/>
+            </entity>
+            <entity type="com.symphony.integration.bitbucket.approver" version="1.0">
+                <attribute name="full_name" type="org.symphonyoss.string" value="SOPHIE MULLER"/>
+                <attribute name="email" type="org.symphonyoss.string" value="sophie.muller@example.com"/>
+                <attribute name="status" type="org.symphonyoss.string" value="APPROVED"/>
+            </entity>
+        </entity>
+    </entity>
+</messageML>

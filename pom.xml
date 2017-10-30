@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>app-integration-bitbucket</artifactId>
+
+    <description>Integration hook between symphony and bitbucket</description>
+    <url>https://github.com/symphonyoss/</url>
+
+    <parent>
+        <artifactId>integration-parent</artifactId>
+        <groupId>org.symphonyoss.symphony.integrations</groupId>
+        <version>0.12.0-SNAPSHOT</version>
+    </parent>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:git@github.com:symphonyoss/App-Integrations-Bitbucket.git</connection>
+        <developerConnection>scm:git:git@github.com:symphonyoss/App-Integrations-Bitbucket.git</developerConnection>
+        <url>https://github.com/symphonyoss/App-Integrations-Bitbucket</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>logicrunner</id>
+            <name>James Winnifrith</name>
+        </developer>
+    </developers>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.symphonyoss.symphony.integrations</groupId>
+            <artifactId>integration-webhook</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+</project>
