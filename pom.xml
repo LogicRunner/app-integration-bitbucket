@@ -3,11 +3,16 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>app-integration-bitbucket</artifactId>
-
+    <artifactId>app-integrations-bitbucket</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
+         
     <description>Integration hook between symphony and bitbucket</description>
     <url>https://github.com/symphonyoss/</url>
 
+    <properties>
+        <symphony.integrations.version>1.5.0-SNAPSHOT</symphony.integrations.version>
+    </properties>
+         
     <parent>
         <artifactId>integration-parent</artifactId>
         <groupId>org.symphonyoss.symphony.integrations</groupId>
@@ -43,7 +48,7 @@
         <dependency>
             <groupId>org.symphonyoss.symphony.integrations</groupId>
             <artifactId>integration-webhook</artifactId>
-            <version>${project.version}</version>
+            <version>${symphony.integrations.version}</version>
         </dependency>
     </dependencies>
 
