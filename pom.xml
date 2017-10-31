@@ -11,8 +11,13 @@
     <parent>
         <artifactId>integration-parent</artifactId>
         <groupId>org.symphonyoss.symphony.integrations</groupId>
-        <version>0.12.0-SNAPSHOT</version>
+        <version>1.5.0-SNAPSHOT</version>
     </parent>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
 
     <licenses>
         <license>
@@ -41,4 +46,17 @@
             <version>${project.version}</version>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>sonatype-oss-public</id>
+            <url>https://oss.sonatype.org/content/groups/public</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 </project>
